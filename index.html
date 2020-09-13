@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Loops</title>
+  </head>
+  <body>
+    <script>
+      // for Loops ex:1
+
+      // iterates from 0 to 100
+      //   for (let i = 0; i <= 100; i++) {
+      //     if (i === 20) {
+      //       console.log("You hit 20!");
+      //       continue; // skips number selected by if statement
+      //       break;
+      //     }
+
+      //     console.log(i);
+      //   }
+
+      // ex.2
+
+      //   for (let i = 0; i <= 100; i++) {
+
+      //       console.log(i); // if this is above if statement it iterates to 40 if after it goes only to 39
+
+      //     if (i === 40) {
+      //       console.log("You hit 40!");
+      //       break; // ignores code after and ends the iterations
+      //       console.log("this code is ignored");
+      //     }
+      //   }
+
+      // ex:3
+
+      //   for (let i = 0; i <= 100; i++) {
+
+      //       console.log(i); // runs first
+
+      //   }
+      //   console.log('hey'); // runs after
+
+      // ex:4
+
+      const texts = ['Singing in the park', 'Watching myself dance', 'Dogo is danger', 'cat is black'];
+
+      for (let i = 0; i < texts.length; i++) {
+        console.log(texts[i]); // logs the text
+      }
+      
+    </script>
+  </body>
+</html>
